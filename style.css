@@ -9,6 +9,8 @@ h1 {
 
 /* Le texte reste normal (pas centré) */
 p {
+        text-align: center;
+
     font-size: 1.2rem;
     color: #333;
     margin: 20px;
@@ -16,6 +18,7 @@ p {
 
 /* Centrer le GIF */
 .gif {
-    display: block;
+    
+    display: center;
     margin: 0 auto; /* Centre horizontalement */
 }

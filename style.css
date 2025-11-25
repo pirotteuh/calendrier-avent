@@ -1,0 +1,16 @@
+
+/* Supprime les marges par défaut */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Hauteur = 100% de la fenêtre */
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+}

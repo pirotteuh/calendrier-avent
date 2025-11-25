@@ -1,3 +1,5 @@
 body { background-color:#f54242;
-     line-height: 1.88889;}
+     line-height: 1.88889;
+     background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+}
 h1 { color: green; }

@@ -1,5 +1,10 @@
 body { background-color:#f54242;
      line-height: 1.88889;
+     }
+.page-wrapper { 
      background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+     padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
 }
 h1 { color: green; }

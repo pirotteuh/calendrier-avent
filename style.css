@@ -1,23 +1,21 @@
 
-/* Centrer uniquement le texte (h1 et p) */
-h1, p {
+/* Centrer uniquement le titre */
+.titre {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    color: #b30000;
+    margin-top: 20px;
+}
+
+/* Le texte reste normal (pas centré) */
+p {
+    font-size: 1.2rem;
     color: #333;
+    margin: 20px;
 }
 
-/* Si tu veux aussi centrer verticalement le texte dans la page */
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column; /* Pour empiler h1 et p */
-    justify-content: center; /* Centre verticalement */
-    align-items: center; /* Centre horizontalement */
-}
-
-/* Ne rien appliquer à l'image */
-img {
-    display: block; /* Par défaut */
+/* Centrer le GIF */
+.gif {
+    display: block;
+    margin: 0 auto; /* Centre horizontalement */
 }

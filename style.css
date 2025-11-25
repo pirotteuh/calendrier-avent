@@ -1,16 +1,23 @@
 
-/* Supprime les marges par défaut */
+/* Centrer uniquement le texte (h1 et p) */
+h1, p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Si tu veux aussi centrer verticalement le texte dans la page */
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Hauteur = 100% de la fenêtre */
-    display: flex; /* Active Flexbox */
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Pour empiler h1 et p */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
 }
 
-h1 {
-    font-size: 3rem;
-    color: #333;
+/* Ne rien appliquer à l'image */
+img {
+    display: block; /* Par défaut */
 }

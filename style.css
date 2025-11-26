@@ -1,25 +1,29 @@
 
-/* Centrer uniquement le titre */
-h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #b30000;
-    margin-top: 20px;
+/* Appliquer à tout le body */
+body {
+    display: flex;
+    flex-direction: column; /* Pour empiler titre, texte et gif */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
 }
 
-/* Le texte reste normal (pas centré) */
-p {
-        text-align: center;
+/* Titre */
+h1 {
+    font-size: 2rem;
+    color: #800000;
+    margin-bottom: 20px;
+}
 
+/* Texte */
+p {
     font-size: 1.2rem;
     color: #333;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
-/* Centrer le GIF */
-.gif {
-    
-y {
-    display: flex;
-    justify-content: center;
+/* GIF */
+.gif img {
+    max-width: 300px; /* Ajuste la taille si nécessaire */
 }

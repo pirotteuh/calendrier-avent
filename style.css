@@ -1,9 +1,9 @@
 
-/* Fond avec maison et sapins */
+/* Arrière-plan avec sapins et maison */
 body {
     margin: 0;
     padding: 0;
-    background: url('https://i.ibb.co/6rYjYhG/christmas-scene.jpg') no-repeat center center fixed;
+    background: url('https://wallpapers.com/images/hd/christmas-forest-1920-x-1080-9hq49e9k44wvrmoz.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -46,7 +46,8 @@ p {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    background-image: url('https://i.ibb.co/4f7jYhG/snow.png');
+    background-image: url('https://png.pngtree.com/png-clipart/20231101/original/pngtree-snow-falling-white-vector-png-image_13466855.png');
+    background-repeat: repeat;
     animation: snow 10s linear infinite;
     z-index: 5;
 }

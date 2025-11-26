@@ -1,29 +1,35 @@
 
-/* Appliquer à tout le body */
 body {
     display: flex;
-    flex-direction: column; /* Pour empiler titre, texte et gif */
-    justify-content: center; /* Centre verticalement */
-    align-items: center; /* Centre horizontalement */
-    height: 100vh; /* Prend toute la hauteur de la fenêtre */
-    margin: 0; /* Supprime les marges par défaut */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FF6347; /* Ton fond rouge actuel */
 }
 
-/* Titre */
 h1 {
     font-size: 2rem;
     color: #800000;
     margin-bottom: 20px;
 }
 
-/* Texte */
 p {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-/* GIF */
+/* Centrer le GIF */
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Prend toute la largeur */
+}
+
 .gif img {
     max-width: 300px; /* Ajuste la taille si nécessaire */
 }

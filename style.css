@@ -1,12 +1,9 @@
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #FF6347; /* Fond rouge */
     margin: 0;
-    background-color: #FF6347; /* Ton fond rouge actuel */
+    padding: 20px;
+    text-align: center; /* Centre tout le contenu horizontalement */
 }
 
 h1 {
@@ -19,15 +16,13 @@ p {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 20px;
-    text-align: center;
 }
 
-/* Centrer le GIF */
+/* GIF centré */
 .gif {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%; /* Prend toute la largeur */
+    margin-top: 20px;
 }
 
 .gif img {

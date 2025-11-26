@@ -19,6 +19,7 @@ p {
 /* Centrer le GIF */
 .gif {
     
-    display: center;
-    margin: 0 auto; /* Centre horizontalement */
+y {
+    display: flex;
+    justify-content: center;
 }
